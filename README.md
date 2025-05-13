@@ -271,4 +271,36 @@ Gain insights into setting up automated development pipelines, boosting efficien
 5. **Property Amenities:**
    - Properties can have multiple Amenities
    - Amenities can be shared across multiple Properties
-   - Amenities are categorized for better organization 
+   - Amenities are categorized for better organization
+
+## Feature Breakdown
+
+### User Management System
+The authentication and user management system handles user registration, login, and profile management for both hosts and guests. It implements secure authentication using JWT tokens and supports social media login integration. The system also includes user verification processes and profile customization options to build trust within the community.
+
+### Property Management
+Enables hosts to create, update, and manage their property listings with detailed information, pricing, and availability calendars. Hosts can upload multiple photos, set house rules, define pricing variations for different seasons, and manage their property's amenities. The system includes an intuitive dashboard for hosts to track their properties' performance and booking statistics.
+
+### Search and Filter System
+Implements an advanced search functionality with filters for dates, location, price range, and amenities. The system uses geolocation services for location-based searches and includes an autocomplete feature for location inputs. Results can be viewed in both list and map views, with real-time availability updates.
+
+### Booking Management
+Handles the entire booking process from initial request to confirmation, including payment processing and communication between guests and hosts. The system manages booking conflicts, implements a flexible cancellation policy system, and sends automated notifications for booking updates. It also includes a calendar synchronization feature to prevent double bookings.
+
+### Payment Processing
+Integrates secure payment processing for booking transactions, handling multiple currency support and various payment methods. The system manages security deposits, refunds, and implements Airbnb's payment split system for host payouts. It also includes automated invoice generation and financial reporting features.
+
+### Review and Rating System
+Allows guests to leave reviews and ratings for properties they've stayed in, while hosts can review guests. The system implements a two-way review system where both reviews are revealed once both parties have submitted their feedback. It includes features for reporting inappropriate reviews and calculating overall property ratings.
+
+### Messaging System
+Provides a real-time messaging platform for communication between hosts and guests before, during, and after stays. The system includes automated messages for booking confirmations and reminders, as well as a secure channel for sharing check-in information and handling support requests.
+
+### Admin Dashboard
+Offers a comprehensive administration interface for managing users, properties, bookings, and platform settings. Administrators can monitor user activities, handle dispute resolutions, and access detailed analytics about platform usage. The dashboard includes tools for content moderation and system configuration management.
+
+### Notification System
+Implements a multi-channel notification system that keeps users informed about their bookings, messages, and account activities. The system supports email, SMS, and in-app notifications, with user-configurable preferences for different types of alerts. It includes automated reminders for upcoming check-ins/check-outs and payment deadlines.
+
+### Analytics and Reporting
+Provides detailed insights and reporting tools for hosts to track their property performance and earnings. The system generates comprehensive reports on occupancy rates, revenue, and guest demographics. It also includes market analysis tools to help hosts optimize their pricing strategies based on local trends and demand. 
