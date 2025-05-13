@@ -409,4 +409,118 @@ Provides detailed insights and reporting tools for hosts to track their property
 5. **Business Reputation**
    - Builds trust with users and stakeholders
    - Protects brand reputation
-   - Demonstrates commitment to security best practices 
+   - Demonstrates commitment to security best practices
+
+## CI/CD Pipeline
+
+### Overview
+Continuous Integration and Continuous Deployment (CI/CD) automates the process of integrating code changes, running tests, and deploying updates to different environments. This automation ensures consistent, reliable, and frequent delivery of code changes while maintaining high quality and reducing manual errors.
+
+### Pipeline Stages
+
+#### 1. Code Integration
+- **Version Control**
+  - Uses GitHub for source code management
+  - Implements branch protection rules
+  - Requires pull request reviews before merging
+
+- **Code Quality**
+  - Runs ESLint and Prettier for code style enforcement
+  - Performs static code analysis
+  - Checks for security vulnerabilities in dependencies
+
+#### 2. Testing
+- **Automated Testing**
+  - Executes unit tests with Jest and Pytest
+  - Runs integration tests
+  - Performs end-to-end testing with Cypress
+  - Generates test coverage reports
+
+- **Security Scanning**
+  - Conducts SAST (Static Application Security Testing)
+  - Performs dependency vulnerability scanning
+  - Validates security configurations
+
+#### 3. Build Process
+- **Docker Containerization**
+  - Builds Docker images for each service
+  - Tags images with version information
+  - Pushes images to container registry
+
+- **Environment Configuration**
+  - Manages environment variables
+  - Handles secrets securely
+  - Validates configuration files
+
+#### 4. Deployment
+- **Staging Deployment**
+  - Deploys to staging environment
+  - Runs smoke tests
+  - Performs automated UI testing
+
+- **Production Deployment**
+  - Implements blue-green deployment strategy
+  - Includes rollback capabilities
+  - Monitors deployment health
+
+### Tools and Technologies
+
+#### Core Tools
+- **GitHub Actions**
+  - Manages CI/CD workflow automation
+  - Handles event-triggered pipelines
+  - Provides workflow visualization
+
+- **Docker**
+  - Ensures consistent environments
+  - Manages container orchestration
+  - Simplifies deployment process
+
+- **AWS Services**
+  - ECS/EKS for container orchestration
+  - ECR for container registry
+  - CloudWatch for monitoring
+
+#### Testing and Quality Tools
+- **Testing Frameworks**
+  - Jest for JavaScript testing
+  - Pytest for Python testing
+  - Cypress for E2E testing
+
+- **Code Quality**
+  - SonarQube for code analysis
+  - ESLint for JavaScript linting
+  - Black for Python formatting
+
+#### Monitoring and Logging
+- **Application Monitoring**
+  - Prometheus for metrics collection
+  - Grafana for visualization
+  - ELK Stack for log management
+
+### Benefits
+
+1. **Improved Development Efficiency**
+   - Automates repetitive tasks
+   - Reduces manual errors
+   - Speeds up development cycles
+
+2. **Enhanced Code Quality**
+   - Ensures consistent code style
+   - Maintains high test coverage
+   - Identifies issues early
+
+3. **Faster Time to Market**
+   - Enables frequent releases
+   - Automates deployment process
+   - Reduces deployment risks
+
+4. **Better Collaboration**
+   - Provides visibility into changes
+   - Enforces code review processes
+   - Maintains deployment history
+
+5. **Reduced Risks**
+   - Implements automated testing
+   - Includes rollback capabilities
+   - Ensures security compliance 
