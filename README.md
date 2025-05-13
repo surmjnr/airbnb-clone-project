@@ -106,4 +106,42 @@ Gain insights into setting up automated development pipelines, boosting efficien
 - Manages deployment processes and environments
 - Implements monitoring and logging solutions
 - Ensures system reliability and performance
-- Automates development and deployment workflows 
+- Automates development and deployment workflows
+
+## Technology Stack
+
+### Backend
+- **Django**: A high-level Python web framework for building robust and scalable web applications
+- **MySQL**: A reliable relational database management system for storing structured data
+- **GraphQL**: A query language and runtime for APIs, enabling flexible and efficient data fetching
+- **Django REST Framework**: A powerful toolkit for building Web APIs, complementing Django's capabilities
+
+### Frontend
+- **React.js**: A JavaScript library for building dynamic and responsive user interfaces
+- **Next.js**: A React framework for production-grade applications with server-side rendering
+- **TypeScript**: A typed superset of JavaScript that adds static types for better code quality
+- **Tailwind CSS**: A utility-first CSS framework for creating custom and responsive designs
+
+### DevOps & Deployment
+- **Docker**: Containerization platform for consistent development and deployment environments
+- **GitHub Actions**: Automation tool for CI/CD pipelines and workflow management
+- **Nginx**: High-performance web server for serving static files and reverse proxy
+- **AWS**: Cloud platform for hosting and scaling the application
+
+### Security
+- **JWT**: JSON Web Tokens for secure authentication and authorization
+- **OAuth2**: Industry-standard protocol for authorization
+- **HTTPS**: Secure communication protocol for data encryption
+- **Django Security Middleware**: Built-in security features for protection against common web vulnerabilities
+
+### Testing & Quality Assurance
+- **Jest**: JavaScript testing framework for unit and integration testing
+- **Pytest**: Testing framework for Python code
+- **Cypress**: End-to-end testing framework for web applications
+- **ESLint/Prettier**: Code quality and formatting tools
+
+### Development Tools
+- **Git**: Version control system for code management and collaboration
+- **npm/yarn**: Package managers for JavaScript dependencies
+- **pip**: Package installer for Python dependencies
+- **Visual Studio Code**: Recommended IDE with extensions for enhanced development 
