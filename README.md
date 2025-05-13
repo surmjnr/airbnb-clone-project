@@ -43,4 +43,4 @@ Identify and describe core features of the application, focusing on their releva
 Implement and document key security measures to safeguard application data and ensure secure transactions.
 
 ### CI/CD Pipeline Integration:
-Gain insights into setting up automated development pipelines, boosting efficiency and minimizing errors during the deployment phase.
+Gain insights into setting up automated development pipelines, boosting efficiency and minimizing errors during the deployment phase. 
