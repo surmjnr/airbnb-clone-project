@@ -43,4 +43,67 @@ Identify and describe core features of the application, focusing on their releva
 Implement and document key security measures to safeguard application data and ensure secure transactions.
 
 ### CI/CD Pipeline Integration:
-Gain insights into setting up automated development pipelines, boosting efficiency and minimizing errors during the deployment phase. 
+Gain insights into setting up automated development pipelines, boosting efficiency and minimizing errors during the deployment phase.
+
+## Team Roles
+
+### Product Owner
+- Acts as the key stakeholder and vision holder for the project
+- Defines and prioritizes product features and requirements
+- Makes critical decisions about product direction and feature implementation
+- Ensures the product meets market needs and user expectations
+
+### Project Manager
+- Oversees the day-to-day execution of the project
+- Manages project timelines, resources, and deliverables
+- Facilitates communication between team members and stakeholders
+- Identifies and mitigates project risks
+- Ensures project stays within scope and budget
+
+### Business Analyst
+- Analyzes and documents business requirements
+- Bridges the gap between stakeholders and development team
+- Creates detailed specifications for features and functionality
+- Ensures alignment between business goals and technical implementation
+
+### UI/UX Designer
+- Designs intuitive and responsive user interfaces
+- Creates wireframes and prototypes for new features
+- Ensures consistent user experience across the platform
+- Conducts user research and usability testing
+- Implements modern design principles and best practices
+
+### Software Architect
+- Designs the overall technical architecture of the system
+- Makes high-level design choices and establishes technical standards
+- Defines coding and architectural guidelines
+- Ensures scalability, security, and performance of the system
+- Plans for technical debt management and system evolution
+
+### Full-Stack Developer
+- Implements both frontend and backend features
+- Works with modern web technologies and frameworks
+- Writes clean, maintainable, and efficient code
+- Integrates third-party services and APIs
+- Participates in code reviews and technical discussions
+
+### Backend Developer
+- Develops server-side logic and APIs
+- Designs and maintains database schemas
+- Implements security measures and data protection
+- Optimizes application performance and scalability
+- Handles server configuration and deployment
+
+### Quality Assurance Engineer
+- Develops and executes test plans and test cases
+- Performs functional and non-functional testing
+- Identifies and reports software defects
+- Ensures product quality meets requirements
+- Conducts regression testing for new features
+
+### DevOps Engineer
+- Sets up and maintains CI/CD pipelines
+- Manages deployment processes and environments
+- Implements monitoring and logging solutions
+- Ensures system reliability and performance
+- Automates development and deployment workflows 
