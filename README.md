@@ -144,4 +144,131 @@ Gain insights into setting up automated development pipelines, boosting efficien
 - **Git**: Version control system for code management and collaboration
 - **npm/yarn**: Package managers for JavaScript dependencies
 - **pip**: Package installer for Python dependencies
-- **Visual Studio Code**: Recommended IDE with extensions for enhanced development 
+- **Visual Studio Code**: Recommended IDE with extensions for enhanced development
+
+## Database Design
+
+### Core Entities and Relationships
+
+#### User
+- **Key Fields:**
+  - `user_id` (Primary Key)
+  - `email` (Unique)
+  - `name`
+  - `phone_number`
+  - `profile_image`
+- **Relationships:**
+  - Can own multiple Properties (as Host)
+  - Can make multiple Bookings (as Guest)
+  - Can write multiple Reviews
+  - Has one Profile
+
+#### Profile
+- **Key Fields:**
+  - `profile_id` (Primary Key)
+  - `user_id` (Foreign Key)
+  - `bio`
+  - `preferred_language`
+  - `verification_status`
+- **Relationships:**
+  - Belongs to one User
+  - Contains user's verification documents
+
+#### Property
+- **Key Fields:**
+  - `property_id` (Primary Key)
+  - `host_id` (Foreign Key to User)
+  - `title`
+  - `description`
+  - `price_per_night`
+- **Relationships:**
+  - Belongs to one User (Host)
+  - Has multiple Property Images
+  - Has multiple Amenities
+  - Can have multiple Bookings
+  - Has multiple Reviews
+
+#### Property Details
+- **Key Fields:**
+  - `detail_id` (Primary Key)
+  - `property_id` (Foreign Key)
+  - `bedroom_count`
+  - `bathroom_count`
+  - `max_guests`
+- **Relationships:**
+  - Belongs to one Property
+  - Links to Property Amenities
+
+#### Booking
+- **Key Fields:**
+  - `booking_id` (Primary Key)
+  - `property_id` (Foreign Key)
+  - `guest_id` (Foreign Key to User)
+  - `check_in_date`
+  - `check_out_date`
+- **Relationships:**
+  - Belongs to one Property
+  - Belongs to one User (Guest)
+  - Can have one Review
+  - Has one Payment
+
+#### Review
+- **Key Fields:**
+  - `review_id` (Primary Key)
+  - `booking_id` (Foreign Key)
+  - `rating`
+  - `comment`
+  - `created_at`
+- **Relationships:**
+  - Belongs to one Booking
+  - Belongs to one Property
+  - Written by one User
+
+#### Payment
+- **Key Fields:**
+  - `payment_id` (Primary Key)
+  - `booking_id` (Foreign Key)
+  - `amount`
+  - `status`
+  - `payment_method`
+- **Relationships:**
+  - Belongs to one Booking
+  - Associated with one User (Guest)
+
+#### Amenity
+- **Key Fields:**
+  - `amenity_id` (Primary Key)
+  - `name`
+  - `icon`
+  - `category`
+- **Relationships:**
+  - Can belong to multiple Properties
+  - Grouped by categories
+
+### Entity Relationship Rules
+
+1. **User - Property Relationship:**
+   - A User can be both a Host and a Guest
+   - A Host can list multiple Properties
+   - A Guest can book multiple Properties
+
+2. **Booking - Property Relationship:**
+   - A Property can have multiple Bookings
+   - A Booking belongs to exactly one Property
+   - A Booking is made by one Guest
+   - Bookings cannot overlap for the same Property
+
+3. **Review System:**
+   - Reviews can only be created after a completed Booking
+   - One Review per Booking is allowed
+   - Reviews are associated with both the Property and the Guest
+
+4. **Payment Processing:**
+   - Each Booking must have one Payment record
+   - Payments track the status of the transaction
+   - Payment records maintain the history of all transactions
+
+5. **Property Amenities:**
+   - Properties can have multiple Amenities
+   - Amenities can be shared across multiple Properties
+   - Amenities are categorized for better organization 
