@@ -849,4 +849,215 @@ Identifying and documenting design properties in a mockup is crucial for several
 7. **Quality Assurance**
    - Provides clear criteria for design review
    - Makes it easier to identify design inconsistencies
-   - Ensures high-quality implementation 
+   - Ensures high-quality implementation
+
+## UI Component Patterns
+
+### Navigation Components
+
+#### Navbar
+- **Purpose:** Main navigation and user interaction hub
+- **Key Features:**
+  - Logo and brand identity
+  - Search bar with location and date filters
+  - User profile menu
+  - Language/currency selector
+  - Host listing button
+- **States:**
+  - Default
+  - Scrolled (transparent to solid)
+  - Mobile responsive menu
+  - Search expanded
+
+#### Footer
+- **Purpose:** Site-wide navigation and information
+- **Key Features:**
+  - Company information
+  - Support links
+  - Social media links
+  - Newsletter signup
+  - Language/region selector
+- **Sections:**
+  - Support
+  - Community
+  - Hosting
+  - About
+
+### Property Components
+
+#### Property Card
+- **Purpose:** Display property preview in listings
+- **Key Features:**
+  - Property image gallery
+  - Price per night
+  - Location
+  - Rating
+  - Property type
+  - Save/favorite button
+- **States:**
+  - Default
+  - Hover
+  - Saved
+  - Loading
+
+#### Property Details
+- **Purpose:** Comprehensive property information
+- **Key Features:**
+  - Image gallery with thumbnails
+  - Property description
+  - Amenities list
+  - Host information
+  - Location map
+  - House rules
+- **Sections:**
+  - Overview
+  - Photos
+  - Amenities
+  - Location
+  - Reviews
+
+#### Booking Widget
+- **Purpose:** Handle property booking process
+- **Key Features:**
+  - Date picker
+  - Guest selector
+  - Price calculator
+  - Availability calendar
+  - Booking button
+- **States:**
+  - Available
+  - Unavailable
+  - Selected
+  - Processing
+
+### User Interface Components
+
+#### Search Bar
+- **Purpose:** Property search and filtering
+- **Key Features:**
+  - Location input
+  - Date range picker
+  - Guest count
+  - Filter options
+  - Search button
+- **States:**
+  - Default
+  - Focused
+  - Expanded
+  - Loading
+
+#### Review Card
+- **Purpose:** Display user reviews
+- **Key Features:**
+  - User avatar
+  - Rating
+  - Review text
+  - Date
+  - Host response
+- **States:**
+  - Default
+  - Expanded
+  - With response
+
+#### Message Thread
+- **Purpose:** Host-guest communication
+- **Key Features:**
+  - Message history
+  - Input field
+  - Attachment support
+  - Read receipts
+  - Timestamps
+- **States:**
+  - Default
+  - Unread
+  - Typing
+  - Sent
+
+### Form Components
+
+#### Input Fields
+- **Purpose:** User data input
+- **Types:**
+  - Text input
+  - Number input
+  - Date picker
+  - File upload
+  - Search input
+- **States:**
+  - Default
+  - Focused
+  - Error
+  - Success
+  - Disabled
+
+#### Buttons
+- **Purpose:** User actions
+- **Types:**
+  - Primary
+  - Secondary
+  - Text
+  - Icon
+  - Loading
+- **States:**
+  - Default
+  - Hover
+  - Active
+  - Disabled
+  - Loading
+
+### Feedback Components
+
+#### Toast Notifications
+- **Purpose:** System feedback
+- **Types:**
+  - Success
+  - Error
+  - Warning
+  - Info
+- **Features:**
+  - Auto-dismiss
+  - Action buttons
+  - Progress bar
+
+#### Loading States
+- **Purpose:** Indicate processing
+- **Types:**
+  - Spinner
+  - Skeleton
+  - Progress bar
+  - Shimmer effect
+- **Usage:**
+  - Page load
+  - Form submission
+  - Data fetching
+  - Image loading
+
+### Component Guidelines
+
+#### Accessibility
+- ARIA labels
+- Keyboard navigation
+- Focus management
+- Color contrast
+- Screen reader support
+
+#### Responsive Design
+- Mobile-first approach
+- Breakpoint system
+- Flexible layouts
+- Touch targets
+- Viewport adaptation
+
+#### Performance
+- Lazy loading
+- Image optimization
+- Code splitting
+- Caching strategies
+- Bundle optimization
+
+#### State Management
+- Loading states
+- Error handling
+- Success feedback
+- Form validation
+- Data persistence 
