@@ -108,6 +108,154 @@ Gain insights into setting up automated development pipelines, boosting efficien
 - Ensures system reliability and performance
 - Automates development and deployment workflows
 
+## Project Roles and Responsibilities
+
+### Project Manager
+- **Key Responsibilities:**
+  - Develop and maintain project timeline and milestones
+  - Coordinate between different teams and stakeholders
+  - Monitor project progress and resource allocation
+  - Identify and mitigate project risks
+  - Ensure project deliverables meet quality standards
+- **Contribution to Success:**
+  - Ensures project stays on track and within budget
+  - Facilitates effective communication across teams
+  - Manages stakeholder expectations
+  - Resolves conflicts and blockers
+
+### Frontend Developers
+- **Key Responsibilities:**
+  - Implement responsive and interactive user interfaces
+  - Write clean, maintainable, and efficient code
+  - Collaborate with designers for UI implementation
+  - Optimize application performance
+  - Implement frontend testing
+- **Contribution to Success:**
+  - Creates seamless user experiences
+  - Ensures cross-browser compatibility
+  - Maintains code quality and standards
+  - Implements responsive design principles
+
+### Backend Developers
+- **Key Responsibilities:**
+  - Design and implement RESTful APIs
+  - Develop database schemas and queries
+  - Implement business logic and data processing
+  - Ensure system security and data protection
+  - Write unit tests and documentation
+- **Contribution to Success:**
+  - Builds scalable and secure backend systems
+  - Optimizes database performance
+  - Implements robust error handling
+  - Maintains API documentation
+
+### UI/UX Designers
+- **Key Responsibilities:**
+  - Create user interface designs and wireframes
+  - Conduct user research and usability testing
+  - Develop design systems and style guides
+  - Create interactive prototypes
+  - Ensure accessibility compliance
+- **Contribution to Success:**
+  - Designs intuitive and user-friendly interfaces
+  - Maintains consistent visual identity
+  - Improves user experience through research
+  - Ensures design accessibility
+
+### QA/Testers
+- **Key Responsibilities:**
+  - Develop and execute test plans
+  - Perform functional and regression testing
+  - Conduct performance and security testing
+  - Document and track bugs
+  - Verify bug fixes
+- **Contribution to Success:**
+  - Ensures product quality and reliability
+  - Identifies issues before production
+  - Validates user requirements
+  - Maintains testing documentation
+
+### DevOps Engineers
+- **Key Responsibilities:**
+  - Set up and maintain CI/CD pipelines
+  - Manage cloud infrastructure
+  - Implement monitoring and logging
+  - Ensure system security
+  - Automate deployment processes
+- **Contribution to Success:**
+  - Enables continuous delivery
+  - Maintains system reliability
+  - Optimizes deployment processes
+  - Ensures infrastructure security
+
+### Product Owner
+- **Key Responsibilities:**
+  - Define product vision and roadmap
+  - Prioritize features and requirements
+  - Manage product backlog
+  - Gather and analyze user feedback
+  - Make product-related decisions
+- **Contribution to Success:**
+  - Ensures product meets market needs
+  - Maintains focus on business value
+  - Balances stakeholder interests
+  - Guides product development
+
+### Scrum Master
+- **Key Responsibilities:**
+  - Facilitate Scrum ceremonies
+  - Remove team impediments
+  - Coach team on Agile practices
+  - Track team velocity and progress
+  - Ensure team collaboration
+- **Contribution to Success:**
+  - Promotes Agile methodology
+  - Improves team efficiency
+  - Maintains team focus
+  - Facilitates continuous improvement
+
+### Cross-Functional Collaboration
+- **Daily Stand-ups:**
+  - Team members share progress and blockers
+  - Coordinate daily activities
+  - Identify immediate needs
+
+- **Sprint Planning:**
+  - Team commits to sprint goals
+  - Tasks are assigned and estimated
+  - Dependencies are identified
+
+- **Sprint Reviews:**
+  - Demonstrate completed work
+  - Gather stakeholder feedback
+  - Plan next sprint priorities
+
+- **Retrospectives:**
+  - Review team performance
+  - Identify improvement areas
+  - Implement process changes
+
+### Success Metrics
+- **Project Delivery:**
+  - On-time delivery of features
+  - Meeting quality standards
+  - Staying within budget
+
+- **Team Performance:**
+  - Sprint velocity
+  - Bug resolution time
+  - Code quality metrics
+
+- **Product Quality:**
+  - User satisfaction scores
+  - System performance metrics
+  - Security compliance
+
+- **Business Impact:**
+  - User adoption rates
+  - Feature usage statistics
+  - Revenue metrics
+
 ## Technology Stack
 
 ### Backend
