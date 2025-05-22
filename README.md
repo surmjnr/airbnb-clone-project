@@ -603,4 +603,102 @@ A user-friendly design is crucial for a booking system because it:
    - Easy booking management
    - Clear communication channels
    - Helpful error messages
-   - Efficient support access 
+   - Efficient support access
+
+### Design Properties
+
+#### Color Palette
+- **Primary Colors**
+  - Primary: #FF5A5F (Airbnb Red)
+  - Secondary: #00A699 (Teal)
+  - Accent: #FFB400 (Yellow)
+
+- **Neutral Colors**
+  - Background: #FFFFFF (White)
+  - Surface: #F7F7F7 (Light Gray)
+  - Text Primary: #484848 (Dark Gray)
+  - Text Secondary: #767676 (Medium Gray)
+  - Border: #DDDDDD (Light Border)
+
+- **State Colors**
+  - Success: #008489 (Green)
+  - Error: #FF5A5F (Red)
+  - Warning: #FFB400 (Yellow)
+  - Info: #007A87 (Blue)
+
+#### Typography
+- **Primary Font Family**
+  - Font: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
+  - Weights: 400 (Regular), 500 (Medium), 600 (Semibold), 700 (Bold)
+
+- **Font Sizes**
+  - Headings:
+    - H1: 32px
+    - H2: 24px
+    - H3: 20px
+    - H4: 18px
+  - Body:
+    - Large: 16px
+    - Regular: 14px
+    - Small: 12px
+  - Buttons: 14px
+  - Labels: 12px
+
+#### Spacing System
+- Base Unit: 8px
+- Spacing Scale:
+  - xs: 4px
+  - sm: 8px
+  - md: 16px
+  - lg: 24px
+  - xl: 32px
+  - xxl: 48px
+
+#### Border Radius
+- Small: 4px
+- Medium: 8px
+- Large: 12px
+- Circle: 50%
+
+#### Shadows
+- Small: 0 1px 2px rgba(0, 0, 0, 0.1)
+- Medium: 0 2px 4px rgba(0, 0, 0, 0.1)
+- Large: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+### Importance of Design Properties
+Identifying and documenting design properties in a mockup is crucial for several reasons:
+
+1. **Consistency**
+   - Ensures visual consistency across all pages and components
+   - Maintains brand identity throughout the application
+   - Creates a cohesive user experience
+
+2. **Development Efficiency**
+   - Provides clear specifications for developers
+   - Reduces back-and-forth communication
+   - Enables faster implementation of UI components
+
+3. **Scalability**
+   - Makes it easier to add new features while maintaining design consistency
+   - Allows for systematic updates to the design system
+   - Supports responsive design implementation
+
+4. **Accessibility**
+   - Ensures proper contrast ratios for text readability
+   - Maintains consistent interactive elements
+   - Supports WCAG compliance requirements
+
+5. **Maintenance**
+   - Simplifies design updates and modifications
+   - Makes it easier to identify and fix design inconsistencies
+   - Provides a reference for future design decisions
+
+6. **Collaboration**
+   - Creates a shared language between designers and developers
+   - Facilitates better communication across teams
+   - Ensures everyone understands the design requirements
+
+7. **Quality Assurance**
+   - Provides clear criteria for design review
+   - Makes it easier to identify design inconsistencies
+   - Ensures high-quality implementation 
